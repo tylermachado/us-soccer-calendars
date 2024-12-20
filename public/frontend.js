@@ -143,6 +143,12 @@ const clubsData = [
 		"fullname": "Real Salt Lake",
 		"shortname": "Real Salt Lake"
 	},
+  {
+    "club": "San Diego",
+    "abbreviation": "SD",
+    "fullname": "San Diego FC",
+    "shortname": "San Diego FC"
+  },
 	{
 		"club": "San Jose",
 		"abbreviation": "SJ",

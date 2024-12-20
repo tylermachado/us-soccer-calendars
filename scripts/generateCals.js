@@ -5,7 +5,7 @@ const clubsData = require('../data/clubs.json');
 const getClubName = require('./getClubName');
 
 function generateCals() {
-  fetch('https://sportapi.mlssoccer.com/api/matches?culture=en-us&dateFrom=2024-01-01&dateTo=2024-12-31&excludeSecondaryTeams=true')
+  fetch('https://sportapi.mlssoccer.com/api/matches?culture=en-us&dateFrom=2025-01-01&dateTo=2025-12-31&excludeSecondaryTeams=true')
     .then((response) => response.text())
     .then((body) => {
       const matches = JSON.parse(body);

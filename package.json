@@ -1,7 +1,7 @@
 {
   "name": "soccer-calendar",
   "version": "1.0.0",
-  "description": "iCal files for the 2024 MLS season",
+  "description": "iCal files for the 2025 MLS season",
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
