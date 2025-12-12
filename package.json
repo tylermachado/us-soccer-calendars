@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -r public/mls build/",
+    "build": "vite build && cp -r public/mls build/ && cp -r public/wc26 build/",
     "preview": "vite preview",
     "generate-mls": "node scripts/generateMLS.js",
     "generate-wc26": "node scripts/generateWC26.js",
