@@ -16,7 +16,7 @@
 			<div>
 				<h2>{club.fullname}</h2>
 				
-				<a href={webcalUrl} target="_blank" rel="noreferrer">Apple iCal</a>
+				<a href={webcalUrl} target="_blank" rel="noreferrer">Apple</a>
 				<a
 					href={`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`}
 					target="_blank"
