@@ -4,8 +4,8 @@
 // init project
 const express = require("express");
 const app = express();
-const clubsData = require('./data/clubs.json');
-const generateCals = require('./scripts/generateCals');
+const mlsClubs = require('./data/clubs/mls.json');
+const generateMLS = require('./scripts/generateMLS');
 
 app.use(express.static("public"));
 
@@ -14,11 +14,11 @@ app.get("/", function (request, response) {
 });
 
 app.get("/cron", (request, response) => {
-  generateCals();
+  generateMLS();
   response.sendStatus(200);
 });
 
-clubsData.forEach(club => {
+mlsClubs.forEach(club => {
   app.get(`/${club.abbreviation}`, function (request, response) {
     const url = __dirname + `/public/${club.abbreviation}.ics`;
     const webcalurl = url.replace('webcal://', 'http://');

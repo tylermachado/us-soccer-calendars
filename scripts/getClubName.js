@@ -1,4 +1,4 @@
-const clubsData = require('../data/clubs.json');
+const clubsData = require('../data/clubs/mls.json');
 
 function getClubName(fullname) {
   const club = clubsData.find(club => club.fullname === fullname);

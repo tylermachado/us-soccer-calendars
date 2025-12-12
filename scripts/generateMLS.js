@@ -1,7 +1,7 @@
 const fs = require('fs');
 const ics = require('ics');
 const fetch = require('node-fetch');
-const clubsData = require('../data/clubs.json');
+const clubsData = require('../data/mls.json');
 const getClubName = require('./getClubName');
 
 function generateCals() {
