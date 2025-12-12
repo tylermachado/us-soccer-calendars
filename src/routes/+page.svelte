@@ -1,5 +1,5 @@
 <script>
-	import clubsData from '../data/clubs/mls.json';
+	import clubsMLS from '../data/clubs/mls.json';
 	
 	let host = '';
 	
@@ -10,11 +10,13 @@
 
 <main>
 	<div id="links">
-		{#each clubsData as club}
+		<h2>World Cup 2026</h2>
+		<h2>MLS</h2>
+		{#each clubsMLS as club}
 			{@const httpUrl = `/us-soccer-calendars/mls/${club.abbreviation}.ics`}
 			{@const webcalUrl = host ? `webcal://${host}${httpUrl}` : httpUrl}
 			<div>
-				<h2>{club.fullname}</h2>
+				<h3>{club.fullname}</h3>
 				
 				<a href={webcalUrl} target="_blank" rel="noreferrer">Apple</a>
 				<a
