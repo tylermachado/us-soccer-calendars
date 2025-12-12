@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp -r public/mls build/",
     "preview": "vite preview",
     "generate": "node scripts/generateMLS.js",
     "generate-and-build": "npm run generate && npm run build"

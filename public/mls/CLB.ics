@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-WR-CALNAME:Columbus Crew
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:-PuV25cljQXK3tilbd9GE
+SUMMARY:Portland vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260222T033000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Providence Park\, Portland\, OR
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:LzV6vpecsIidVVwtwi1Vz
+SUMMARY:Kansas City vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260301T013000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Children's Mercy Park\, Kansas City\, KS
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:2NickUzpe7zveCfBndqkH
+SUMMARY:Columbus vs Chicago
+DTSTAMP:20251212T195423Z
+DTSTART:20260308T003000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:MoHOlba7XOxmHTUhXFyVa
+SUMMARY:Columbus vs Nashville
+DTSTAMP:20251212T195423Z
+DTSTART:20260314T220000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:zA8swMh8-KOa1SJf2aI48
+SUMMARY:Toronto vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260321T183000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:BMO Field\, Toronto\, ON
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:pS8w4rP2GwUW-cXfdjz-g
+SUMMARY:Atlanta vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260404T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, GA
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:Q3pnJcxm-JJRV4C_vR8Hu
+SUMMARY:Columbus vs Orlando
+DTSTAMP:20251212T195423Z
+DTSTART:20260412T230000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:lkNN_eEmXLvhwX1woFIjM
+SUMMARY:New England vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260418T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Gillette Stadium\, Foxborough\, MA
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:IdXIwdPQp5OQFLjoN2XOO
+SUMMARY:Columbus vs LA Galaxy
+DTSTAMP:20251212T195423Z
+DTSTART:20260422T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:ThydeZAE99aP7aTxUztb9
+SUMMARY:Columbus vs Philadelphia
+DTSTAMP:20251212T195423Z
+DTSTART:20260425T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:VIPtG9qpTJRFhOYa8pCqf
+SUMMARY:Columbus vs Minnesota
+DTSTAMP:20251212T195423Z
+DTSTART:20260502T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:2qEqDtEipM8uZdNrF61HN
+SUMMARY:New York City vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260510T203000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Yankee Stadium\, Bronx\, NY
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:r9uJyLfH49o4lg4W-DOBe
+SUMMARY:New York vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260513T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Sports Illustrated Stadium\, Harrison\, NJ
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:NTLW01u_CUCLj8uzteOlI
+SUMMARY:Philadelphia vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260516T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Subaru Park\, Chester\, PA
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:zWvBCdrw2zJnM-oQZtMRq
+SUMMARY:Columbus vs Atlanta
+DTSTAMP:20251212T195423Z
+DTSTART:20260524T210000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:k-wEY-G8n4z3gzk_-ublp
+SUMMARY:Columbus vs New York City
+DTSTAMP:20251212T195423Z
+DTSTART:20260722T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:_XsbolKAkJWVPIJstK3VH
+SUMMARY:Columbus vs Cincinnati
+DTSTAMP:20251212T195423Z
+DTSTART:20260725T230000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:xKq5_1_1Bnyvqg1YhO4s3
+SUMMARY:Miami vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260801T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Miami Freedom Park\, undefined
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:epvgKw0-q4fdnWEvOf4F9
+SUMMARY:Charlotte vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260815T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Bank of America Stadium\, Charlotte\, NC
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:16IDw8y9H9BoyEjITwiMM
+SUMMARY:Columbus vs Montréal
+DTSTAMP:20251212T195423Z
+DTSTART:20260819T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:oe5CBQyMkTijrgnZNlBDH
+SUMMARY:Nashville vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260823T003000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:GEODIS Park\, Nashville\, TN
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:w84dbNXraZT_OKb2mQldc
+SUMMARY:Columbus vs New England
+DTSTAMP:20251212T195423Z
+DTSTART:20260829T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:TsWjGvcqxYwG76iELAFQM
+SUMMARY:Columbus vs Colorado
+DTSTAMP:20251212T195423Z
+DTSTART:20260905T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:vkQ0qEdhsrMkGu75dATFI
+SUMMARY:D.C. United vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260909T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Audi Field\, Washington D.C.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:UR8LaqR4OOlj16vDJNZGD
+SUMMARY:Columbus vs New York
+DTSTAMP:20251212T195423Z
+DTSTART:20260912T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:uxb6M2EnZzdgiY9lcEFVo
+SUMMARY:Montréal vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20260919T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Stade Saputo\, Montréal\, QC
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:68Gl3aFuMewIZEZDFw_Pz
+SUMMARY:Columbus vs Miami
+DTSTAMP:20251212T195423Z
+DTSTART:20260927T230000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:FPh7IkIuFpZ1TKcvPNhR-
+SUMMARY:Orlando vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20261010T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Inter&Co Stadium\, Orlando\, FL
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:bCanwctdRY2U7-GehOkQQ
+SUMMARY:Columbus vs Charlotte
+DTSTAMP:20251212T195423Z
+DTSTART:20261014T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:tW1tWYg8BDJwwB8_c8nT0
+SUMMARY:Cincinnati vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20261018T230000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:TQL Stadium\, Cincinnati\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:XP2ovPCzrmH9aGjvVNmqn
+SUMMARY:Columbus vs Toronto
+DTSTAMP:20251212T195423Z
+DTSTART:20261024T183000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:sosnGegQm2iLxDuLsOitb
+SUMMARY:Dallas vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20261029T003000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Toyota Stadium\, Frisco\, TX
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:6S0zpOpTz2ItrLVYo4vGA
+SUMMARY:Columbus vs D.C. United
+DTSTAMP:20251212T195423Z
+DTSTART:20261031T233000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, OH
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:nyA2w9mFWcc27EBjF_V5q
+SUMMARY:Chicago vs Columbus
+DTSTAMP:20251212T195423Z
+DTSTART:20261107T210000Z
+DESCRIPTION:🏆 Major League Soccer - Regular Season\n📺 Watch: Apple TV
+LOCATION:Soldier Field\, Chicago\, IL
+DURATION:PT2H
+END:VEVENT
+END:VCALENDAR
