@@ -1,16 +1,22 @@
 <script>
 	import { clubsData } from '$lib/clubs.js';
+	
+	let host = '';
+	
+	if (typeof window !== 'undefined') {
+		host = window.location.host;
+	}
 </script>
 
 <main>
 	<div id="links">
 		{#each clubsData as club}
 			{@const httpUrl = `/us-soccer-calendars/mls/${club.abbreviation}.ics`}
-			{@const webcalUrl = httpUrl.replace('https://', 'webcal://').replace('http://', 'webcal://')}
+			{@const webcalUrl = host ? `webcal://${host}${httpUrl}` : httpUrl}
 			<div>
 				<h2>{club.fullname}</h2>
 				
-				<a href={webcalUrl} target="_blank" rel="noreferrer">Apple</a>
+				<a href={webcalUrl} target="_blank" rel="noreferrer">Apple iCal</a>
 				<a
 					href={`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`}
 					target="_blank"
