@@ -18,8 +18,8 @@ const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../data/clubs/mls.jso
  * @typedef {Object} Match
  * @property {string} home_team_three_letter_code
  * @property {string} away_team_three_letter_code
- * @property {string} home_team_short_name
- * @property {string} away_team_short_name
+ * @property {string} home_team_name
+ * @property {string} away_team_name
  * @property {string} stadium_name
  * @property {string} stadium_city
  * @property {string} competition_name
@@ -56,7 +56,9 @@ function generateMLS() {
             const matchDate = new Date(match.planned_kickoff_time);
 
             matchData.calName = club.fullname;
-            matchData.title = match.home_team_short_name + ' vs ' + match.away_team_short_name;
+            matchData.title = match.home_team_three_letter_code === club.abbreviation
+              ? match.home_team_name + ' vs ' + match.away_team_name
+              : match.away_team_name + ' @ ' + match.home_team_name;
             matchData.location = match.stadium_name + ', ' + match.stadium_city;
             matchData.description = '🏆 ' + match.competition_name + '\n📺 Watch: Apple TV';
             matchData.start = [matchDate.getFullYear(), matchDate.getMonth() + 1, matchDate.getDate(), matchDate.getHours(), matchDate.getMinutes()];
