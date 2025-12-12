@@ -1,5 +1,5 @@
 <script>
-	import { clubsData } from '$lib/clubs.js';
+	import clubsData from '../data/clubs/mls.json';
 	
 	let host = '';
 	

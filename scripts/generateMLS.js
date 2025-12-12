@@ -6,7 +6,7 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../data/clubs/mls.json', 'utf-8'));
+const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../src/data/clubs/mls.json', 'utf-8'));
 
 /**
  * @typedef {Object} Club

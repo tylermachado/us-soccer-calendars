@@ -1,4 +1,4 @@
-const clubsData = require('../data/clubs/mls.json');
+const clubsData = require('../src/data/clubs/mls.json');
 
 /**
  * @typedef {Object} Club
