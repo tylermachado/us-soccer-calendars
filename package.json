@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build && cp -r public/mls build/",
     "preview": "vite preview",
-    "generate": "node scripts/generateMLS.js",
-    "generate-and-build": "npm run generate && npm run build"
+    "generate-mls": "node scripts/generateMLS.js",
+    "generate-wc26": "node scripts/generateWC26.js",
+    "generate": "npm run generate-mls && npm run generate-wc26",
+    "generate-and-build": "npm run generate-mls && npm run generate-wc26 && npm run build"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.0",
