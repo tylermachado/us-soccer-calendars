@@ -1,4 +1,4 @@
-name: Generate MLS Calendars and Deploy
+name: Generate Calendars and Deploy
 
 on:
   schedule:
@@ -48,7 +48,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add public/
-          git commit -m "chore: regenerate MLS calendars"
+          git commit -m "chore: regenerate calendars"
           git push
 
       - name: Setup Pages
