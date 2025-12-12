@@ -2,11 +2,12 @@ import ics from 'ics';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import getClubName from './getClubName.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../data/clubs/mls.json', 'utf-8'));
+const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../src/data/clubs/mls.json', 'utf-8'));
 
 /**
  * @typedef {Object} Club
@@ -18,8 +19,8 @@ const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../data/clubs/mls.jso
  * @typedef {Object} Match
  * @property {string} home_team_three_letter_code
  * @property {string} away_team_three_letter_code
- * @property {string} home_team_short_name
- * @property {string} away_team_short_name
+ * @property {string} home_team_name
+ * @property {string} away_team_name
  * @property {string} stadium_name
  * @property {string} stadium_city
  * @property {string} competition_name
@@ -56,7 +57,9 @@ function generateMLS() {
             const matchDate = new Date(match.planned_kickoff_time);
 
             matchData.calName = club.fullname;
-            matchData.title = match.home_team_short_name + ' vs ' + match.away_team_short_name;
+            matchData.title = match.home_team_three_letter_code === club.abbreviation
+              ? getClubName(match.home_team_name) + ' vs ' + getClubName(match.away_team_name)
+              : getClubName(match.away_team_name) + ' @ ' + getClubName(match.home_team_name);
             matchData.location = match.stadium_name + ', ' + match.stadium_city;
             matchData.description = '🏆 ' + match.competition_name + '\n📺 Watch: Apple TV';
             matchData.start = [matchDate.getFullYear(), matchDate.getMonth() + 1, matchDate.getDate(), matchDate.getHours(), matchDate.getMinutes()];
@@ -72,7 +75,7 @@ function generateMLS() {
                 return
               }
 
-              fs.writeFile('public/' + club.abbreviation + '.ics', value, (/** @type {Error | null} */ err) => {
+              fs.writeFile('public/mls/' + club.abbreviation + '.ics', value, (/** @type {Error | null} */ err) => {
                 if (err) throw err;
                 console.log(club.abbreviation + '.ics calendar file saved');
               });
