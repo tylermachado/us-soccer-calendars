@@ -1,4 +1,4 @@
-name: Generate MLS Calendars
+name: Generate MLS Calendars and Deploy
 
 on:
   schedule:
@@ -8,8 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate:
+  generate-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout code
@@ -26,20 +30,35 @@ jobs:
       - name: Generate calendars
         run: npm run generate
 
+      - name: Build SvelteKit
+        run: npm run build
+
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if git diff --quiet; then
+          if git diff --quiet public/; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and push changes
+      - name: Commit calendar changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/*.ics
+          git add public/
           git commit -m "chore: regenerate MLS calendars"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'build'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
