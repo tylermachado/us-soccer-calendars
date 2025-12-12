@@ -1,4 +1,11 @@
-const clubsData = require('../src/data/clubs/mls.json');
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const clubsData = JSON.parse(readFileSync(__dirname + '/../src/data/clubs/mls.json', 'utf-8'));
 
 /**
  * @typedef {Object} Club
@@ -28,4 +35,4 @@ function getClubName(fullname) {
   return club.shortname;
 } // getClubName
 
-module.exports = getClubName;
+export default getClubName;
