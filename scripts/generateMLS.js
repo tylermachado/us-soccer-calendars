@@ -52,4 +52,3 @@ function generateMLS() {
 // generateMLS
 
 module.exports = generateMLS;
-generateMLS();
