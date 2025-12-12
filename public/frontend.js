@@ -191,12 +191,16 @@ clubsData.forEach(club => {
   clubHeading.innerText = club.fullname;
   clubContainer.appendChild(clubHeading);
 
-  const url = `webcal://${window.location.host}/${club.abbreviation}.ics`;
+  // Construct the calendar file URL
+  // For GitHub Pages, use https:// instead of webcal://
+  const httpUrl = `${window.location.origin}${window.location.pathname}${club.abbreviation}.ics`;
+  const webcalUrl = httpUrl.replace('https://', 'webcal://').replace('http://', 'webcal://');
+  
   let links = new Map();
-  links.set('apple', url);
-  links.set('google', `https://calendar.google.com/calendar/u/0/r?cid=${url}`);
-  links.set('outlook', `https://outlook.office.com/calendar/addfromweb?url=${url}&name=${club.fullname}%20Schedule`);
-  links.set('other', url);
+  links.set('apple', webcalUrl);
+  links.set('google', `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`);
+  links.set('outlook', `https://outlook.office.com/calendar/addfromweb?url=${encodeURIComponent(httpUrl)}&name=${encodeURIComponent(club.fullname + ' Schedule')}`);
+  links.set('other', httpUrl);
 
   for (let [key, value] of links) {
 	  const linkButton = document.createElement('a');

@@ -1,7 +1,7 @@
 {
-  "name": "soccer-calendar",
-  "version": "1.0.0",
-  "description": "iCal files for the 2025 MLS season",
+  "name": "us-soccer-calendars",
+  "version": "3.0.0",
+  "description": "iCal files for the 2026 MLS season",
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
@@ -13,6 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node server.js",
+    "generate": "node scripts/generateMLS.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
