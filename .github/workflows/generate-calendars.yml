@@ -2,8 +2,8 @@ name: Generate Calendars and Deploy
 
 on:
   schedule:
-    # Run every day at 8:00 AM UTC
-    - cron: '0 8 * * *'
+    # Run every day at 7:00 PM UTC
+    - cron: '0 19 * * *'
   # Allow manual triggering from the Actions tab
   workflow_dispatch:
 
