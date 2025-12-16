@@ -1,10 +1,14 @@
-body {
-	font-family: sans-serif;
-	max-width: 800px;
-	text-align: left;
-	margin: 0 auto;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans max-w-3xl mx-auto px-4;
+  }
+
+  * {
+    @apply box-border;
+  }
 }
 
-* {
-	box-sizing: border-box;
-}
