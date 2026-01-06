@@ -7,6 +7,9 @@ const __dirname = dirname(__filename);
 
 const clubsData = JSON.parse(readFileSync(__dirname + '/../src/data/clubs/mls.json', 'utf-8'));
 
+/** @type {Map<string, {shortname: string}>} */
+const clubsByFullname = new Map(clubsData.map(club => [club.fullname, club]));
+
 /**
  * @typedef {Object} Club
  * @property {string} club
@@ -21,14 +24,7 @@ const clubsData = JSON.parse(readFileSync(__dirname + '/../src/data/clubs/mls.js
  * @returns {string} The short name or full name if not found
  */
 function getClubName(fullname) {
-  /** @type {Club | undefined} */
-  let club;
-  for (let i = 0; i < clubsData.length; i++) {
-    if (clubsData[i].fullname === fullname) {
-      club = clubsData[i];
-      break;
-    }
-  }
+  const club = clubsByFullname.get(fullname);
   if (!club || !club.shortname) {
     return fullname;
   }
