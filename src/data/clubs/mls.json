@@ -3,180 +3,240 @@
     "club": "Atlanta",
     "abbreviation": "ATL",
     "fullname": "Atlanta United FC",
-    "shortname": "Atlanta United"
+    "shortname": "Atlanta United",
+    "primaryColor": "#9D2235",
+    "secondaryColor": "#010101"
   },
   {
     "club": "Austin",
     "abbreviation": "ATX",
     "fullname": "Austin FC",
-    "shortname": "Austin FC"
+    "shortname": "Austin FC",
+    "primaryColor": "#231F20",
+    "secondaryColor": "#00B140"
   },
   {
     "club": "Charlotte",
     "abbreviation": "CLT",
     "fullname": "Charlotte FC",
-    "shortname": "Charlotte FC"
+    "shortname": "Charlotte FC",
+    "primaryColor": "#2B5499",
+    "secondaryColor": "#1A1A1A"
   },
   {
     "club": "Chicago",
     "abbreviation": "CHI",
     "fullname": "Chicago Fire FC",
-    "shortname": "Fire"
+    "shortname": "Fire",
+    "primaryColor": "#E31B23",
+    "secondaryColor": "#002B5C"
   },
   {
     "club": "Cincinnati",
     "abbreviation": "CIN",
     "fullname": "FC Cincinnati",
-    "shortname": "FC Cincinnati"
+    "shortname": "FC Cincinnati",
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#2E3838"
   },
   {
     "club": "Colorado",
     "abbreviation": "COL",
     "fullname": "Colorado Rapids",
-    "shortname": "Rapids"
+    "shortname": "Rapids",
+    "primaryColor": "#862633",
+    "secondaryColor": "#8BB8E8"
   },
   {
     "club": "Columbus",
     "abbreviation": "CLB",
     "fullname": "Columbus Crew",
-    "shortname": "Crew"
+    "shortname": "Crew",
+    "primaryColor": "#FFCC00",
+    "secondaryColor": "#000000"
   },
   {
     "club": "Dallas",
     "abbreviation": "DAL",
     "fullname": "FC Dallas",
-    "shortname": "FC Dallas"
+    "shortname": "FC Dallas",
+    "primaryColor": "#BF0D3E",
+    "secondaryColor": "#00205B"
   },
   {
     "club": "DC",
     "abbreviation": "DC",
     "fullname": "D.C. United",
-    "shortname": "D.C. United"
+    "shortname": "D.C. United",
+    "primaryColor": "#010101",
+    "secondaryColor": "#E4002B"
   },
   {
     "club": "Houston",
     "abbreviation": "HOU",
     "fullname": "Houston Dynamo FC",
-    "shortname": "Dynamo"
+    "shortname": "Dynamo",
+    "primaryColor": "#EB6E1F",
+    "secondaryColor": "#181818"
   },
   {
     "club": "Kansas City",
     "abbreviation": "SKC",
     "fullname": "Sporting Kansas City",
-    "shortname": "Sporting KC"
+    "shortname": "Sporting KC",
+    "primaryColor": "#A7BCD6",
+    "secondaryColor": "#0C2340"
   },
   {
     "club": "LA Galaxy",
     "abbreviation": "LA",
     "fullname": "LA Galaxy",
-    "shortname": "LA Galaxy"
+    "shortname": "LA Galaxy",
+    "primaryColor": "#FFCD00",
+    "secondaryColor": "#13294B"
   },
   {
     "club": "LAFC",
     "abbreviation": "LAFC",
     "fullname": "Los Angeles Football Club",
-    "shortname": "LAFC"
+    "shortname": "LAFC",
+    "primaryColor": "#101820",
+    "secondaryColor": "#C6AA76"
   },
   {
     "club": "Miami",
     "abbreviation": "MIA",
     "fullname": "Inter Miami CF",
-    "shortname": "Inter Miami"
+    "shortname": "Inter Miami",
+    "primaryColor": "#F5B6CD",
+    "secondaryColor": "#010101"
   },
   {
     "club": "Minnesota",
     "abbreviation": "MIN",
     "fullname": "Minnesota United FC",
-    "shortname": "Minnesota United"
+    "shortname": "Minnesota United",
+    "primaryColor": "#8DC8E8",
+    "secondaryColor": "#010101"
   },
   {
     "club": "Montreal",
     "abbreviation": "MTL",
     "fullname": "CF Montréal",
-    "shortname": "CF Montréal"
+    "shortname": "CF Montréal",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#010101"
   },
   {
     "club": "Nashville",
     "abbreviation": "NSH",
     "fullname": "Nashville SC",
-    "shortname": "Nashville SC"
+    "shortname": "Nashville SC",
+    "primaryColor": "#EDE939",
+    "secondaryColor": "#201547"
   },
   {
     "club": "New England",
     "abbreviation": "NE",
     "fullname": "New England Revolution",
-    "shortname": "Revolution"
+    "shortname": "Revolution",
+    "primaryColor": "#BD2039",
+    "secondaryColor": "#003087"
   },
   {
     "club": "NYCFC",
     "abbreviation": "NYC",
     "fullname": "New York City FC",
-    "shortname": "NYCFC"
+    "shortname": "NYCFC",
+    "primaryColor": "#9FD2FF",
+    "secondaryColor": "#000229"
   },
   {
-    "club": "NY Red Bulls",
+    "club": "Red Bull New York",
     "abbreviation": "RBNY",
-    "fullname": "New York Red Bulls",
-    "shortname": "Red Bulls"
+    "fullname": "Red Bull New York",
+    "shortname": "Red Bulls",
+    "primaryColor": "#ED1E24",
+    "secondaryColor": "#FFC72C"
   },
   {
     "club": "Orlando",
     "abbreviation": "ORL",
     "fullname": "Orlando City SC",
-    "shortname": "Orlando City"
+    "shortname": "Orlando City",
+    "primaryColor": "#491D6D",
+    "secondaryColor": "#FDBF1D"
   },
   {
     "club": "Philadelphia",
     "abbreviation": "PHI",
     "fullname": "Philadelphia Union",
-    "shortname": "Phila Union"
+    "shortname": "Phila Union",
+    "primaryColor": "#051C2C",
+    "secondaryColor": "#DFD1A7"
   },
   {
     "club": "Portland",
     "abbreviation": "POR",
     "fullname": "Portland Timbers",
-    "shortname": "Timbers"
+    "shortname": "Timbers",
+    "primaryColor": "#2C5234",
+    "secondaryColor": "#C99700"
   },
   {
     "club": "Salt Lake",
     "abbreviation": "RSL",
     "fullname": "Real Salt Lake",
-    "shortname": "Real Salt Lake"
+    "shortname": "Real Salt Lake",
+    "primaryColor": "#E31B23",
+    "secondaryColor": "#1F2935"
   },
   {
     "club": "San Diego",
     "abbreviation": "SD",
     "fullname": "San Diego FC",
-    "shortname": "San Diego FC"
+    "shortname": "San Diego FC",
+    "primaryColor": "#14191D",
+    "secondaryColor": "#0066CC"
   },
   {
     "club": "San Jose",
     "abbreviation": "SJ",
     "fullname": "San Jose Earthquakes",
-    "shortname": "Earthquakes"
+    "shortname": "Earthquakes",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#010101"
   },
   {
     "club": "Seattle",
     "abbreviation": "SEA",
     "fullname": "Seattle Sounders FC",
-    "shortname": "Sounders"
+    "shortname": "Sounders",
+    "primaryColor": "#0C2C56",
+    "secondaryColor": "#26C221"
   },
   {
     "club": "St. Louis",
     "abbreviation": "STL",
     "fullname": "St. Louis CITY SC",
-    "shortname": "St. Louis City"
+    "shortname": "St. Louis City",
+    "primaryColor": "#E0004D",
+    "secondaryColor": "#0C2340"
   },
   {
     "club": "Toronto",
     "abbreviation": "TOR",
     "fullname": "Toronto FC",
-    "shortname": "Toronto FC"
+    "shortname": "Toronto FC",
+    "primaryColor": "#A6192E",
+    "secondaryColor": "#333F48"
   },
   {
     "club": "Vancouver",
     "abbreviation": "VAN",
     "fullname": "Vancouver Whitecaps FC",
-    "shortname": "Whitecaps"
+    "shortname": "Whitecaps",
+    "primaryColor": "#13294B",
+    "secondaryColor": "#8BB8E8"
   }
 ]

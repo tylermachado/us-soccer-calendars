@@ -51,7 +51,9 @@ function generateMLS() {
         /** @type {Match[]} */
         const matchesArray = matches
           .filter((/** @type {Match} */ match) => (match.home_team_three_letter_code === club.abbreviation || match.away_team_three_letter_code === club.abbreviation));
-        matchesArray.forEach((match) => {
+        matchesArray
+          .filter((/** @type {Match} */ match) => parseInt(match.match_day) <= 35)
+          .forEach((match) => {
             /** @type {MatchData} */
             const matchData = {};
             const matchDate = new Date(match.planned_kickoff_time);
@@ -66,21 +68,21 @@ function generateMLS() {
             matchData.startInputType = 'local';
             matchData.duration = { hours: 2, minutes: 0 };
             formattedMatches.push(matchData);
-
-            if (parseInt(match.match_day) <= 35) {
-              const { error, value } = ics.createEvents(formattedMatches);
-
-              if (error) {
-                console.log(error)
-                return
-              }
-
-              fs.writeFile('public/mls/' + club.abbreviation + '.ics', value, (/** @type {Error | null} */ err) => {
-                if (err) throw err;
-                console.log(club.abbreviation + '.ics calendar file saved');
-              });
-            }
           }); // matches.forEach
+
+        if (formattedMatches.length > 0) {
+          const { error, value } = ics.createEvents(formattedMatches);
+
+          if (error) {
+            console.log(error)
+            return
+          }
+
+          fs.writeFile('public/mls/' + club.abbreviation + '.ics', value, (/** @type {Error | null} */ err) => {
+            if (err) throw err;
+            console.log(club.abbreviation + '.ics calendar file saved');
+          });
+        }
       });
       // clubsData.forEach
 
