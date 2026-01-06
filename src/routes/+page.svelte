@@ -6,7 +6,7 @@
 	
 	const BASE_PATH = '/us-soccer-calendars';
 	const WC26_FILENAME = 'wc26.ics';
-	const WC26_EVENT_NAME = 'USA World Cup 2026 Schedule';
+	const WC26_EVENT_NAME = 'World Cup 2026 Schedule';
 	const wcHttpUrl = `${BASE_PATH}/wc26/${WC26_FILENAME}`;
 	
 	if (typeof window !== 'undefined') {
@@ -21,7 +21,7 @@
 		<h2 class="text-2xl font-bold mb-6">World Cup 2026</h2>
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
 			<CalendarCard
-				title="USA World Cup 2026"
+				title="World Cup 2026"
 				appleUrl={wcWebcalUrl}
 				googleUrl={`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(wcWebcalUrl)}`}
 				outlookUrl={`https://outlook.office.com/calendar/addfromweb?url=${encodeURIComponent(wcHttpUrl)}&name=${encodeURIComponent(WC26_EVENT_NAME)}`}
