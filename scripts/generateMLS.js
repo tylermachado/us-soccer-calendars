@@ -53,6 +53,7 @@ function generateMLS() {
           .filter((/** @type {Match} */ match) => (match.home_team_three_letter_code === club.abbreviation || match.away_team_three_letter_code === club.abbreviation));
         matchesArray
           .filter((/** @type {Match} */ match) => parseInt(match.match_day) <= 35)
+          .filter((/** @type {Match} */ match) => match.competition_name !== 'MLS Next Pro' && match.competition_name !== 'MLS Test')
           .forEach((match) => {
             /** @type {MatchData} */
             const matchData = {};
