@@ -39,13 +39,28 @@ const clubsData = JSON.parse(fs.readFileSync(__dirname + '/../src/data/clubs/mls
  * @property {{hours: number, minutes: number}} duration
  */
 
-function generateMLS() {
-  fetch('https://stats-api.mlssoccer.com/matches/seasons/MLS-SEA-0001KA?match_date[gte]=2026-01-01&match_date[lte]=2026-12-31&per_page=600&sort=planned_kickoff_time:asc,home_team_name:asc')
-    .then((response) => response.text())
-    .then((body) => {
-      const matches = JSON.parse(body).schedule;
+async function fetchAllMatches(baseUrl) {
+  let allMatches = [];
+  let nextPageToken = null;
 
-      clubsData.forEach((club) => {
+  do {
+    const url = nextPageToken
+      ? `${baseUrl}&page_token=${encodeURIComponent(nextPageToken)}`
+      : baseUrl;
+    const response = await fetch(url);
+    const data = await response.json();
+    allMatches = allMatches.concat(data.schedule);
+    nextPageToken = data.next_page_token ?? null;
+  } while (nextPageToken);
+
+  return allMatches;
+}
+
+async function generateMLS() {
+  const baseUrl = 'https://stats-api.mlssoccer.com/matches/seasons/MLS-SEA-0001KA?match_date[gte]=2026-01-01&match_date[lte]=2026-12-31&per_page=600&sort=planned_kickoff_time:asc,home_team_name:asc';
+  const matches = await fetchAllMatches(baseUrl);
+
+  clubsData.forEach((club) => {
         /** @type {MatchData[]} */
         const formattedMatches = [];
         /** @type {Match[]} */
@@ -84,14 +99,8 @@ function generateMLS() {
             console.log(club.abbreviation + '.ics calendar file saved');
           });
         }
-      });
-      // clubsData.forEach
-
-    });
-    // .then
-
-  // fetch
-
+  });
+  // clubsData.forEach
 }
 // generateMLS
 
