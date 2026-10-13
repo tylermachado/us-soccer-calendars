@@ -5,6 +5,11 @@
 	let host = '';
 	
 	const BASE_PATH = '/us-soccer-calendars';
+
+	const nationalTeams = [
+		{ fullname: 'U.S. Women\'s National Team', path: 'intl-women', filename: 'USWNT.ics' },
+		{ fullname: 'U.S. Men\'s National Team', path: 'intl-men', filename: 'USMNT.ics' }
+	];
 	
 	if (typeof window !== 'undefined') {
 		host = window.location.host;
@@ -13,6 +18,27 @@
 
 <main class="w-full px-4 py-8">
 	<div class="max-w-7xl mx-auto">
+		<h2 class="text-2xl font-bold mb-6">U.S. National Teams</h2>
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+			{#each nationalTeams as team}
+				{@const httpUrl = `${BASE_PATH}/${team.path}/USA.ics`}
+				{@const webcalUrl = host ? `webcal://${host}${httpUrl}` : httpUrl}
+				<CalendarCard
+					title={team.fullname}
+					appleUrl={webcalUrl}
+					googleUrl={`https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`}
+					outlookUrl={`https://outlook.office.com/calendar/addfromweb?url=${encodeURIComponent(httpUrl)}&name=${encodeURIComponent(team.fullname + ' Schedule')}`}
+					downloadUrl={httpUrl}
+					downloadFilename={team.filename}
+					appleTitle={`Add ${team.fullname} to Apple Calendar`}
+					googleTitle={`Add ${team.fullname} to Google Calendar`}
+					outlookTitle={`Add ${team.fullname} to Outlook`}
+					downloadTitle="Download calendar file"
+					colors={['#0A3161', '#FFFFFF']}
+				/>
+			{/each}
+		</div>
+
 		<h2 class="text-2xl font-bold mb-6">MLS</h2>
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 			{#each clubsMLS as club}

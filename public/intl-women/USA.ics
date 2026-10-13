@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. Women's National Team
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:a4iprju76snso07h40ek1bvo4@ussoccer.com
+SUMMARY:USWNT vs Paraguay
+DTSTAMP:20261013T215426Z
+DTSTART:20260124T223000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, truTV\, HBO Max\, Univ
+	erso\, Peacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-paraguay-california-tickets-live-score-match-hub-lineups-highli
+	ghts
+LOCATION:Dignity Health Sports Park\, Carson\, Calif.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:diwgfct4ciaqlslnwfrjbtudw@ussoccer.com
+SUMMARY:USWNT vs Chile
+DTSTAMP:20261013T215426Z
+DTSTART:20260128T030000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TBS\, HBO Max\, Universo\, P
+	eacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-chile-california-tickets-live-score-match-hub-lineups-highlight
+	s
+LOCATION:Harder Stadium\, Santa Barbara\, CA
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:dxiufw6fchmkp0natna1mmd5g@ussoccer.com
+SUMMARY:USWNT vs Argentina
+DTSTAMP:20261013T215426Z
+DTSTART:20260301T220000Z
+DESCRIPTION:🏆 SheBelieves Cup\n📺 Watch: TNT\, truTV\, HBO Max\, Universo\, 
+	Peacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-shebelieves-cup-2026/matche
+	s/united-states-argentina-tickets-live-score-match-hub-lineups-highlights
+LOCATION:GEODIS Park\, Nashville\, Tenn.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:dy6dkbchvjq5dwhepaeusq32s@ussoccer.com
+SUMMARY:USWNT vs Canada
+DTSTAMP:20261013T215426Z
+DTSTART:20260304T234500Z
+DESCRIPTION:🏆 SheBelieves Cup\n📺 Watch: TNT\, truTV\, HBO Max\, Universo\, 
+	Peacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-shebelieves-cup-2026/matche
+	s/united-states-canada-tickets-live-score-match-hub-lineups-highlights
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, Ohio
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:dymoabfx51cuh7liqtauzge1g@ussoccer.com
+SUMMARY:USWNT vs Colombia
+DTSTAMP:20261013T215426Z
+DTSTART:20260307T155000Z
+DESCRIPTION:🏆 SheBelieves Cup\n📺 Watch: TBS\, truTV\, HBO Max\, Telemundo\,
+	 Universo\, Peacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-shebelieves-cup-2026/matche
+	s/united-states-colombia-tickets-live-score-match-hub-lineups-highlights
+LOCATION:Sports Illustrated Stadium\, Harrison\, New Jersey
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:askw9g24g0m5xo2npaqr416ac@ussoccer.com
+SUMMARY:USWNT vs Japan
+DTSTAMP:20261013T215426Z
+DTSTART:20260411T213000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, truTV\, HBO Max\, Univ
+	erso\, Peacock\, Westwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-japan-california-tickets-live-score-match-hub-lineups-highlight
+	s
+LOCATION:PayPal Park\, San Jose\, Calif.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:at2tw451z0ysz96uvhlz26d5g@ussoccer.com
+SUMMARY:USWNT vs Japan
+DTSTAMP:20261013T215426Z
+DTSTART:20260415T020000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, truTV\, HBO Max\, Univ
+	erso\, Peacock\, Westwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-japan-seattle-tickets-live-score-match-hub-lineups-highlights
+LOCATION:Lumen Field\, Seattle\, Wash.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:atetyhbhx35i7tn9fgbgjrxn8@ussoccer.com
+SUMMARY:USWNT vs Japan
+DTSTAMP:20261013T215426Z
+DTSTART:20260418T010000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, truTV\, HBO Max\, Univ
+	erso\, Peacock\, Westwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-japan-colorado-tickets-live-score-match-hub-lineups-highlights
+LOCATION:Dick's Sporting Goods Park\, Commerce City\, Colo.
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:6j54wv7kt2ch07t1exmkkyrys@ussoccer.com
+SUMMARY:USWNT @ Brazil
+DTSTAMP:20261013T215426Z
+DTSTART:20260606T213000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, truTV\, HBO Max\, Tele
+	mundo\, Universo\, Peacock\, Westwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-brazil-sao-paulo-tickets-live-score-match-hub-lineups-highlight
+	s
+LOCATION:Neo Química Arena\, São Paulo
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:6jp1e48lau9rk6e4vhif4fu38@ussoccer.com
+SUMMARY:USWNT @ Brazil
+DTSTAMP:20261013T215426Z
+DTSTART:20260610T003000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, HBO Max\, Peacock\, We
+	stwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-brazil-fortaleza-tickets-live-score-match-hub-lineups-highlight
+	s
+LOCATION:Estádio Governador Plácido Aderaldo Castelo\, Fortaleza
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:7m5pwl8g47gnrx60vua050phw@ussoccer.com
+SUMMARY:USWNT vs Spain
+DTSTAMP:20261013T215426Z
+DTSTART:20261010T183000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TBS\, HBO Max\, Telemundo\, 
+	Universo\, Peacock\, Westwood One Sports
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-spain-washington-dc-tickets-live-score-match-hub-lineups-highli
+	ghts
+LOCATION:Audi Field\, Washington\, DC
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:7mo4arv5dv78slmoqyx7fa8t0@ussoccer.com
+SUMMARY:USWNT vs Spain
+DTSTAMP:20261013T215426Z
+DTSTART:20261013T230000Z
+DESCRIPTION:🏆 International Friendly\n📺 Watch: TNT\, HBO Max\, Universo\, P
+	eacock\, Westwood One Sports\, FDP
+URL:https://www.ussoccer.com/competitions/uswnt-friendlies-2026/matches/uni
+	ted-states-spain-chester-pa-tickets-live-score-match-hub-lineups-highlight
+	s
+LOCATION:Subaru Park\, Chester\, PA
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:emcuacz35umigilxvaocddx5g@ussoccer.com
+SUMMARY:USWNT vs El Salvador
+DTSTAMP:20261013T215426Z
+DTSTART:20261128T013000Z
+DESCRIPTION:🏆 Concacaf W Championship
+URL:https://www.ussoccer.com/competitions/2026-concacaf-w-championship/matc
+	hes/united-states-el-salvador-mansfield-texas-tickets-live-score-match-hub
+	-lineups-highlights
+LOCATION:Texas Health Mansfield Stadium\, Mansfield\, Texas
+DURATION:PT2H
+END:VEVENT
+END:VCALENDAR
